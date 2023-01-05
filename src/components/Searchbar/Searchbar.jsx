@@ -1,5 +1,5 @@
 import React from "react"
-import {BsSearch, BsTranslate} from 'react-icons/bs'
+import {BsSearch} from 'react-icons/bs'
 import css from '../../styles.module.css';
 
 export class Searchbar extends React.Component {
