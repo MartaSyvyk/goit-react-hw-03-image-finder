@@ -1,13 +1,15 @@
 import css from '../../styles.module.css';
+import PropTypes from 'prop-types';
 
-export const ImageGalleryItem = ({url, id, handleClick}) => {
+export const ImageGalleryItem = ({ url, handleClick }) => {
+  return (
+    <li onClick={handleClick} className={css.ImageGalleryItem}>
+      <img className={css.ImageGalleryItemImage} src={url} alt="" />
+    </li>
+  );
+};
 
-
-    return(
-        
-        <li key={id} onClick={handleClick} className={css.ImageGalleryItem}>
-  <img className={css.ImageGalleryItemImage } src={url} alt='' />
-</li>
-    )
-
-}
+ImageGalleryItem.propTypes = {
+  url: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
+};

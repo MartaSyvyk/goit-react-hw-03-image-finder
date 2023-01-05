@@ -93,13 +93,12 @@ img {
 }
 
 .SearchFormButtonLabel {
-  
   width: 45px;
   height: 45px;
   padding: 0;
   overflow: hidden;
-  
-    border: 0;
+
+  border: 0;
 }
 
 .SearchFormInput {
@@ -173,7 +172,7 @@ img {
 }
 
 .Modal {
-   max-width: calc(100vw - 48px);
+  max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
   background-color: #fff;
 }
@@ -209,8 +208,7 @@ img {
   background-color: #303f9f;
 }
 
-
-.ErrorContainer{
+.ErrorContainer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -219,5 +217,4 @@ img {
   line-height: 24px;
   font-style: normal;
   font-weight: 500;
-  
 }
